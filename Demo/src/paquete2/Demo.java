@@ -23,7 +23,7 @@ public class Demo {
         
         
                 
-        
+        /*
         Valor mivalor = new Valor();
         
         //obtenerFrase MiobtenerFrase = new obtenerFrase();
@@ -32,6 +32,11 @@ public class Demo {
         
         System.out.println(miPalabra.obtenerPalabra);
         System.out.print(mivalor.obtenerHabitantes());
+        */
+        
+        System.out.println(Mensaje.obtenerFrase()+Valor.obtenerHabitantes());
+        
+        
         
     
         
