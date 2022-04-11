@@ -6,6 +6,10 @@
 package paquete2;
 
 
+import paquete3.Valor;
+import paquete1.Mensaje;
+import paquete4.Palabra;
+
 /**
  *
  * @author reroes
@@ -17,7 +21,20 @@ public class Demo {
      */
     public static void main(String[] args) {
         
-        System.out.printf();
+        
+                
+        
+        Valor mivalor = new Valor();
+        
+        //obtenerFrase MiobtenerFrase = new obtenerFrase();
+        
+        Palabra miPalabra = new Palabra();
+        
+        System.out.println(miPalabra.obtenerPalabra);
+        System.out.print(mivalor.obtenerHabitantes());
+        
+    
+        
     }
     
 }
